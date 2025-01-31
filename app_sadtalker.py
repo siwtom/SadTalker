@@ -5,7 +5,7 @@ from src.gradio_demo import SadTalker
 
 try:
     import webui  # in webui
-    in_webui = True
+    in_webui = False #prevent initial TTS
 except:
     in_webui = False
 
