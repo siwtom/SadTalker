@@ -5,9 +5,9 @@ from src.gradio_demo import SadTalker
 
 try:
     import webui  # in webui
-    in_webui = False #prevent initial TTS
+    in_webui = True #prevent initial TTS
 except:
-    in_webui = False
+    in_webui = True
 
 
 def toggle_audio_file(choice):
